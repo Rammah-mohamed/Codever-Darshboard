@@ -5,6 +5,5 @@
 ### 2- two chart. Circular chart shows the total sales percentage and Area chart show the last 6 months revenue.
 ### 3- Table contains about the products and customers.
 ### 4- Data table contains information about users.
-### 5-You can view any user profile, delete any users or add a new one.
-### 6-It's contain light and dark mode.
+### 5- It's contain light and dark mode.
 ## The live dashboard link here: https://codever-darshboard.netlify.app
