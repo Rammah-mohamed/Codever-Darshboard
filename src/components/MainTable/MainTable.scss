@@ -1,0 +1,37 @@
+.mainTable {
+	padding: 20px;
+	margin: 0 20px 20px 0;
+	box-shadow: 8px 10px 10px 0 #eee;
+
+	.tcell {
+		.wrapper {
+			display: flex;
+			align-items: center;
+			gap: 10px;
+
+			img {
+				width: 32px;
+				height: 32px;
+				border-radius: 50%;
+				object-fit: cover;
+			}
+		}
+
+		.status {
+			display: block;
+			width: 80px !important;
+			text-align: center;
+			padding: 10px;
+			border-radius: 5px;
+
+			&.approved {
+				color: rgb(79, 51, 65);
+				background-color: rgb(208, 229, 208);
+			}
+			&.pending {
+				color: red;
+				background-color: rgb(231, 241, 202);
+			}
+		}
+	}
+}

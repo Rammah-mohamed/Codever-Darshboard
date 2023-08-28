@@ -1,0 +1,76 @@
+.navbar {
+	height: 40px;
+	padding: 15px;
+	border-bottom: 2px solid #e4e4e4;
+
+	.wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		.search {
+			width: 300px;
+			height: 20px;
+			padding: 10px;
+			border: 1px solid rgb(232, 232, 232);
+			border-radius: 10px;
+
+			input {
+				border: none;
+				outline: none;
+				background-color: transparent;
+
+				&::placeholder {
+					font-size: 14px;
+					font-weight: 400;
+					color: #888;
+				}
+			}
+		}
+
+		.items {
+			display: flex;
+			align-items: center;
+			gap: 30px;
+
+			.item {
+				display: flex;
+				align-items: center;
+				gap: 5px;
+				position: relative;
+				cursor: pointer;
+
+				.notify {
+					position: absolute;
+					top: -5px;
+					right: -5px;
+					width: 15px;
+					height: 15px;
+					font-size: 10px;
+					font-weight: bold;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					border-radius: 50%;
+					color: white;
+					background-color: red;
+				}
+
+				.icon {
+					font-size: 24px;
+					color: rgb(147, 147, 147);
+				}
+
+				> span {
+					color: #999;
+				}
+
+				img {
+					width: 40px;
+					height: 40px;
+					border-radius: 50%;
+				}
+			}
+		}
+	}
+}

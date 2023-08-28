@@ -1,0 +1,18 @@
+.home {
+	display: flex;
+
+	.homeContainer {
+		flex: 5;
+
+		.widgets,
+		.charts {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 20px;
+		}
+		.charts {
+			padding-top: 0;
+		}
+	}
+}

@@ -1,0 +1,115 @@
+.app.dark {
+	background-color: #222;
+
+	.navbar.dark {
+		background-color: #222;
+		border-bottom: 2px solid #999;
+	}
+
+	.widget.dark {
+		box-shadow: 8px 10px 10px 0 #999;
+		.percentage {
+			color: #c8c8c8;
+		}
+
+		.num {
+			color: #c8c8c8;
+		}
+	}
+
+	.featured.dark {
+		box-shadow: 8px 10px 10px 0 #999;
+
+		.num {
+			color: #c8c8c8;
+		}
+	}
+
+	.chart.dark {
+		box-shadow: 8px 10px 10px 0 #999;
+	}
+
+	.mainTable.dark {
+		box-shadow: 8px 10px 10px 0 #999;
+		.tableContainer {
+			background-color: #222;
+		}
+
+		.tcell {
+			color: #c8c8c8;
+		}
+	}
+
+	.sidebar.dark {
+		background-color: #222;
+		border-right: 2px solid #999;
+		ul {
+			li {
+				span {
+					color: #c8c8c8;
+				}
+			}
+		}
+
+		hr {
+			border: 1px solid #999;
+		}
+	}
+
+	.dataTable.dark {
+		box-shadow: 8px 10px 10px 0 #999;
+
+		.dataGrid,
+		.view {
+			color: #c8c8c8;
+		}
+	}
+
+	.new.dark {
+		.newContainer {
+			.top {
+				box-shadow: 8px 10px 10px 0 #999;
+			}
+
+			.bottom {
+				box-shadow: 8px 10px 10px 0 #999;
+				.inputBox {
+					.label {
+						color: #ddd;
+					}
+				}
+			}
+		}
+	}
+
+	.single.dark {
+		.singleContainer {
+			.top {
+				.left {
+					box-shadow: 8px 10px 10px 0 #999;
+					.title {
+						color: #c8c8c8;
+					}
+
+					.key {
+						color: #eee;
+					}
+				}
+
+				.right {
+					box-shadow: 8px 10px 10px 0 #999;
+				}
+			}
+			.bottom {
+				box-shadow: 8px 10px 10px 0 #999;
+
+				.dataTable {
+					.dataGrid,
+					.view {
+						color: #c8c8c8;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,104 @@
+.featured {
+	flex: 1;
+	padding: 20px;
+	margin: 10px 20px;
+	box-shadow: 8px 10px 10px 0 #eee;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 20px;
+
+	.top {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		color: gray;
+
+		h3 {
+			font-size: 20px;
+			font-weight: 600;
+		}
+
+		.icon {
+			font-size: 18px;
+		}
+	}
+
+	.mid {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		gap: 20px;
+		.circularChart {
+			width: 120px;
+			height: 120px;
+		}
+
+		.text {
+			font-size: 20px;
+			font-weight: 500;
+			color: #a8a8a8;
+		}
+
+		.num {
+			font-size: 40px;
+			font-weight: 300;
+		}
+	}
+
+	.bottom {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 15px;
+
+		p {
+			font-size: 15px;
+			color: #a8a8a8;
+			text-align: center;
+		}
+
+		.items {
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+
+			.item {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				gap: 20px;
+
+				h4 {
+					font-size: 16px;
+					color: gray;
+				}
+
+				.num {
+					display: flex;
+					align-items: center;
+					gap: 10px;
+
+					&.postive {
+						color: green;
+					}
+
+					&.negative {
+						color: red;
+					}
+
+					.icon {
+						font-size: 18px;
+					}
+
+					span {
+						font-size: 15px;
+						font-weight: 500;
+					}
+				}
+			}
+		}
+	}
+}
