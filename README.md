@@ -1,5 +1,5 @@
 # Codever-Darshboard
-## I created this dashboard using react.js and sass.
+## I created this dashboard using React.js and SASS.
 ## It's contains: 
 ### 1- widgets that's show the number of (Users, orders, Earnings and Balance).
 ### 2- two chart. Circular chart shows the total sales percentage and Area chart show the last 6 months revenue.
